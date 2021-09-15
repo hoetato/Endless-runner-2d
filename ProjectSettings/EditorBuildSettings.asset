@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Endless Runner.unity
+    guid: 1745f1e175b46d54ea6b360b4dda3cf7
   m_configObjects: {}

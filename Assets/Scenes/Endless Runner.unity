@@ -290,8 +290,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71376205ca182ac4ea0a14077926662e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreHighlightRange: 0
-  sound: {fileID: 0}
+  scoreHighlightRange: 50
+  sound: {fileID: 503916141}
 --- !u!4 &255177303
 Transform:
   m_ObjectHideFlags: 0
@@ -444,7 +444,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 5b1d15cffb49a7344bde05b9d3a2b13d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -669,6 +669,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jump: {fileID: 8300000, guid: 1cca3bd03c223524085880dd16b46ed7, type: 3}
+  scoreHighlight: {fileID: 8300000, guid: 9fc080661b316634d9bd515cead3b9c2, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -720,7 +721,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.616545, g: 0.6622461, b: 0.8018868, a: 0}
+  m_BackGroundColor: {r: 0.6929957, g: 0.8207547, b: 0.8025001, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -760,7 +761,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0.14, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1386,6 +1387,7 @@ MonoBehaviour:
   - {fileID: 7362073400918833930, guid: 462f1af7394365d4a863716f0724cb71, type: 3}
   - {fileID: 3031404367106957382, guid: 7b2d545baf5a175448794586a04bca96, type: 3}
   - {fileID: 7570106157542072735, guid: 25054d7071abf174c908826ec4ad46e4, type: 3}
+  - {fileID: 7570106157542072735, guid: 88cd8dcd9df366a458fbe154b7e512c2, type: 3}
   terrainTemplateWidth: 8.89
   gameCamera: {fileID: 519420031}
   areaStartOffset: -10
@@ -1473,7 +1475,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 394.7, y: -165}
+  m_AnchoredPosition: {x: 1534, y: -165}
   m_SizeDelta: {x: 711.4, y: 253}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1868682610
@@ -1504,7 +1506,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9245283, g: 0.9245283, b: 0.40557134, a: 1}
+  m_Color: {r: 1, g: 0.9404291, b: 0.8632076, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:

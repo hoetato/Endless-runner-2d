@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-D:/Unity Practices/Endless Runner/Build/Endless Runner.exe
+C:/Users/asus/Documents/GitHub/Endless-runner-2d/Endless Runner.exe
 SceneListBegin?
 Assets/Scenes/Endless Runner.unity
 SceneListEnd?
@@ -87,7 +87,7 @@ fc108ce7d98c40ac0907e8ca7f500c76 UnityEngine.UI.dll:UnityEngine.UI.Text
 0fd6822f6177297bd0eb4d83cc7a9030 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
-d2458e62942de6e2cbf39bff1ee1d0be Assembly-CSharp.dll:.CharacterSoundController
+b3609df205274b092eb4be35737dcd52 Assembly-CSharp.dll:.CharacterSoundController
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 06f0fef534ca4c1d6064fd77a26bf722 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 8747051d8c53856e2def93af4f2a8b08 UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
